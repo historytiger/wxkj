@@ -1,0 +1,644 @@
+body{
+	font-family:  "comic sans ms";	
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	height: auto;
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	background-color: white;
+}
+.contect-top{
+	width: 1200px;
+	height: 110px;
+	margin: 0 auto;
+}
+ul,li,a{
+	list-style: none;
+	text-decoration: none;
+	color: black;
+}
+.head-left{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+.head-left img{
+	float: left;
+}
+.head-left h2{
+	line-height: 100px;
+	color: orangered;
+}
+.head-right{
+	width: 60%;
+	height: 100%;
+	float: right;
+}
+.head-right a{
+	width: 110px;
+	height: 110px;
+	float: left;
+	text-align: center;
+	border-radius: 10%;
+}
+.head-right a:hover{
+	box-shadow: 0 0 10px #666666;
+	background-color:rgb(216, 30, 6);
+	transition: 0.5s ease-in;
+}
+.head-right a:hover li p{
+	color: white;
+}
+.head-right a:hover li p span{
+	color: white;
+}
+.head-right p{
+	display: inline-block;
+	margin-top: 30px;
+	text-align: left;
+    font-weight: bold;
+}
+.head-right span{
+	font-size: 15px;
+	color: #666;
+}
+.contect-action1{
+	margin-top: 110px;
+	width: 100%;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+	background: url(../img/c楼图层.png) no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 600px;
+}
+.first-floor{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background: url(../img/fir1.png) no-repeat;
+	background-color: rgba(239, 54, 30, 0.6);
+	background-size: 100% 500px;
+}
+.second-floor{
+	color: white;
+	position: relative;
+	width: 100%;
+	height: 500px;
+}
+.ff-show{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+.ff-show .ff-leftpg{
+	width: 55%;
+	height: auto;
+	float: left;
+}
+.ff-show .ff-righttxt{
+	color: white;
+	width: 40%;
+	height: auto;
+	float: right;
+	padding-left: 20px;
+}
+.ff-righttxt h1{
+	font-family: "comic sans ms";
+	font-size: 58px;
+}
+.ff-righttxt h2{
+	margin-bottom: 20px;
+}
+.ff-righttxt h3{
+	margin-top: 10px;
+}
+.sd-show{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 5%;
+}
+.sd-text{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.sd-text h2{
+	float: none;
+	font-size: 38px;
+	margin-bottom: 0;
+}
+.sd-text h1{
+	font-size: 0;
+	margin: 30px auto;
+	color: red;
+}
+.sd-text  h3{
+	font-size: 19px;
+}
+/**/
+.ourservices{
+  padding: 150px 0;
+}
+.services-text{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+.services-text h1{
+	width: 300px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	border-bottom: 2px solid black;
+}
+.services-text h2{
+	margin: 20px;
+	font-size: 16px;
+	color: #999999;
+}
+.services-showbox{
+	width: 100%;
+	height: 300px;
+	border-top: 1px solid #CCCCCC;
+}
+.services-show{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.services-part{
+	width: 25%;
+	float: left;
+}
+.services-part ul{
+	margin-left: 30%;
+}
+.services-part li{
+	line-height: 30px;
+	font-size: 15px;
+	color: #A9A9A9;
+}
+.services-part h2{
+	color: black;
+	font-family: "微软雅黑";
+}
+.services-imgbox{
+	z-index: 999;
+	margin: -50px auto 30px auto;
+	box-shadow: 0 0 5px #666666;
+	width: 100px;
+	height: 100px;
+	background-color:white;
+	border-radius: 50%;
+	border: 1px solid darkgrey;
+	transition: all 0.2s;
+}
+.services-imgbox:hover{
+	border: 3px solid red;
+	transition: all 0.2s;
+}
+.services-imgbox img{
+	margin: 20px;
+}
+.all-change-pg{
+	color: white;
+	font-size: 20px;
+	width: 100%;
+	height: 300px;
+	background: url(../img/滚动3.jpg) no-repeat;
+	background-size: 100% auto;
+	background-attachment: fixed;
+	text-align: center;
+	line-height: 300px;
+}
+.all-change-pg h1{
+	font-family: "comic sans ms";
+}
+.all-change-pg2{
+	color: white;
+	font-size: 20px;
+	width: 100%;
+	height: 300px;
+	background: url(../img/滚动1.jpg) no-repeat;
+	background-size: 100% auto;
+	background-attachment: fixed;
+	text-align: center;
+	line-height: 300px;
+}
+.all-change-pg3{
+	color: white;
+	font-size: 20px;
+	width: 100%;
+	height: 300px;
+	background: url(../img/滚动2.jpg) no-repeat;
+	background-size: 100% auto;
+	background-attachment: fixed;
+	text-align: center;
+	line-height: 300px;
+}
+/**/
+.ourjob{
+	margin: 150px 0 0 0 ;
+}
+.ourjob-text{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+.ourjob-text h1{
+	width: 300px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	border-bottom: 2px solid black;
+}
+.ourjob-text h2{
+	margin: 20px 0;
+	font-size: 16px;
+	color: #999999;
+}
+/*动画开始*/
+.works-show{
+	margin: 60px auto 0 auto;
+}
+.works-box{
+	top: 0;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	width: 23%;
+	height: 200px;
+	margin-right: 2%;
+	box-shadow: 0 0 10px #666666;
+	z-index: 0;
+	background-color: white;
+	transition: 1s;
+}
+.works-box h5{
+	margin: 15% 0 10px 0;
+	font-size: 25px;
+	transform: scale(0);
+	transition: 1s;
+}
+.works-box p{
+	font-size: 15px;
+	transform: scale(0);
+	transition: 1s;
+}
+.works-box img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: 1s;
+}
+.works-box:hover {
+	top: -5px;
+	background-color: pink;
+	transition: 1s;
+}
+.works-box:hover img{
+	transform: scale(10);
+	opacity: 0;
+	transition:  1s;
+}
+.works-box:hover h5{
+	transform: scale(1);
+	transition: 1s;
+}
+.works-box:hover p{
+	transform: scale(1);
+	transition: 1s;
+}
+/*动画结束*/
+.getmore{
+	display: block;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	margin: 50px auto 100px auto;
+	text-align: center;
+	line-height: 50px;
+	font-family: "comic sans ms";
+	border: 3px solid darkgray;
+	transition: all  0.5s;
+}
+.getmore:hover{
+	width: 250px;
+	color: red;
+	border: 3px solid red;
+	transition: all  0.5s;
+}
+/*mytalk*/
+.mytalk{
+	margin: 150px 0 0 0 ;
+}
+.mytalk-text{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+.mytalk-text h1{
+	width: 300px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	border-bottom: 2px solid black;
+}
+.mytalk-text h2{
+	color: brown;
+	margin: 40px 0;
+}
+.mytalk-text p{
+	margin: 0 10% 10px 10%;
+	text-indent: 2em;
+	text-align: left;
+	letter-spacing: 1px;
+	line-height: 40px;
+	color: #666666;
+	font-family: "微软雅黑";
+	
+}
+/* news*/
+.ournews{
+	margin: 150px 0 0 0 ;
+}
+.ournews-text{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+.ournews-text h1{
+	width: 300px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	border-bottom: 2px solid black;
+}
+.ournews-text h2{
+	margin: 20px 0;
+	font-size: 16px;
+	color: #999999;
+}
+.ournews-detail{
+	width: 100%;
+	height: auto;
+	margin-top: 40px;
+	color: #666;
+}
+.detail-box{
+	width: 30%;
+	height: 200px;
+	margin-right: 3%;
+	text-align: left;
+	margin-top: 20px;
+	float: left;
+}
+.detail-box a h3{
+	display: block;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e6e6e6;
+	font-family: "微软雅黑";
+}
+.detail-box a:hover{
+	color: brown;
+}
+.detail-box .a2:hover{
+	color: white;
+	background-color: brown;
+	transition: 0.5s;
+}
+.detail-box p{
+	margin-top: 15px;
+	font-size: 13px;
+	line-height: 20px;
+}
+.detail-box .a2{
+	display: block;
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+    line-height: 40px;
+    border-radius: 10%;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    transition: 0.5s;
+}
+/*联系我们*/
+.contact{
+	margin: 150px 0 0 0 ;
+}
+.coontact-text{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+.coontact-text h1{
+	width: 300px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	border-bottom: 2px solid black;
+}
+.coontact-text h2{
+	margin: 20px 0;
+	font-size: 16px;
+	color: #999999;
+}
+.map{
+	position: relative;
+	width: 1200px;
+	height: 600px;
+	margin: 50px auto 0 auto;
+	z-index: 200;
+}
+.map:hover .mapcovertop{
+	height: 0;
+	transition: 1s;
+}
+.map:hover .mapcovertop span{
+	opacity: 0;
+	transition: 0.5s;
+}
+.map:hover .mapcoverbt{
+	height: 0;
+	transition: 1s;
+}
+#allmap{
+	position: relative;
+	height: 100%;/*设置地图宽高*/
+    width:100%;
+    box-shadow: 0 0 10px #666666;
+    border-radius:5%;
+    overflow: hidden;
+}
+.mapcoverbt{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50%;
+	border-bottom-right-radius: 33px;
+	border-bottom-left-radius: 33px;
+	background-color: rgba(80, 80, 80, 0.41);
+	z-index: 9999;
+	transition: 1s;
+}
+.mapcovertop{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 50%;
+	border-top-right-radius: 33px;
+	border-top-left-radius: 33px;
+	background-color: rgba(80, 80, 80, 0.41);
+	z-index: 9999;
+	transition: 1s;
+}
+/* 底部*/
+footer{
+	width: 1200px;
+	padding-left: 10%;
+	padding-right: 10%;
+	height: 300px;
+	margin: 50px auto 0 auto;
+}
+.footer-left{
+	width: 40%;
+	height: 300px;
+	float: left;
+}
+.footer-right{
+	width: 60%;
+	height: 300px;
+	float: left;
+}
+.footer-left img{
+	float: left;
+	margin-top: 20%;
+	margin-bottom: 10%;
+}
+.footer-left h2{
+	margin-top: 60px;
+	line-height: 40px;
+}
+.footer-left h3{
+	font-size: 16px;
+	line-height: 40px;
+	color: #666666;
+}
+.footer-left p{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #999999;
+	line-height: 20px;
+}
+.inputleft{
+	width: 40%;
+	padding-top: 40px;
+	float: left;
+}
+.inputright{
+	width: 50%;
+	float: right;
+	padding-top: 40px;
+}
+.footer-right input{
+	margin-top: 15px;
+	width: 300px;
+	height: 30px;
+}
+.inputright input{
+	height: 120px;
+}
+textarea{
+	width: 300px;
+	height: 120px;
+	margin-top: 15px;
+	width: 300px;
+}
+.inputright span{
+	font-size: 12px;
+	color: #999999;
+	line-height: 18px;
+}
+/*测试弹幕*/
+.p1{
+	position: relative;
+	color: rgba(239, 54, 30, 0.6);
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	left: 100px;
+}
+.p2{
+	position: relative;
+	color: rgba(255, 152, 0, 0.6);
+	left: 200px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "agency fb";
+	left: 650px;
+}
+.p3{
+	position: relative;
+	color: rgba(255, 235, 59, 0.6);
+	font-size: 35px;
+	font-weight: bold;
+	font-family: "comic sans ms";
+	left: 240px;
+}
+.p4{
+	position: relative;
+	color: rgba(128, 224, 15, 0.6);
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "黑体";
+	left: 500px;
+}
+.p5{
+	position: relative;
+	color: rgba(33, 150, 243, 0.6);
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "arial black";
+	left: 10px;
+}
+.p6{
+	position: relative;
+	color: rgba(103, 58, 183, 0.6);
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "楷体";
+	left: 830px;
+}
+.p7{
+	position: relative;
+	color: rgba(156, 39, 176, 0.6);
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	left: 140px;
+}
+/*
+ * <span class="p2">新洲生态园</span><br />
+		 		<span class="p1">新吴区</span><br />
+		 		<span class="p4">靠近无锡新区站</span><br />
+		 		<span class="p3">新锡路8号</span><br />
+		 		<span class="p6">多站公交底站</span><br />
+		 		<span class="p5">多站公交底站</span><br />
+		 		<span class="p7">多站公交底站</span><br />
+  */
